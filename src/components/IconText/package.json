@@ -1,0 +1,6 @@
+{
+  "name": "IconText",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./IconText.js"
+}
