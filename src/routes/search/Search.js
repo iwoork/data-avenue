@@ -50,7 +50,7 @@ class Search extends React.Component {
                     {item.type}
                   </div>
                   <h3 className={s.title}>
-                    <a href={item.link} className={s.link}>{item.title}</a>
+                    <a href={"/" + item.type + "/"} className={s.link}>{item.title}</a>
                   </h3>
                   <p className={s.description}>{item.description}</p>
                   <div className={s.icons}>

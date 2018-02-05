@@ -22,8 +22,12 @@ const routes = {
       load: () => import(/* webpackMode: 'eager' */ './home'),
     },
     {
-      path: '/dashboards',
-      load: () => import(/* webpackChunkName: 'contact' */ './dashboards'),
+      path: '/dashboard',
+      load: () => import(/* webpackChunkName: 'dashboard' */ './dashboard'),
+    },
+    {
+      path: '/hive',
+      load: () => import(/* webpackChunkName: 'hive */ './hive'),
     },
     {
       path: '/contact',

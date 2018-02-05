@@ -1,5 +1,5 @@
 import React from 'react';
-import Dashboards from './Dashboards';
+import Dashboard from './Dashboard';
 import Layout from '../../components/Layout';
 
 async function action({ fetch }) {
@@ -14,7 +14,7 @@ async function action({ fetch }) {
     title: 'Dashboards List',
     component: (
       <Layout>
-        <Dashboards news={data.news} />
+        <Dashboard news={data.news} />
       </Layout>
     ),
   };

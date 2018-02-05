@@ -28,7 +28,7 @@ let items = [
   {
     title: 'core_data.dim_orders',
     link: 'http://',
-    type: 'hive table',
+    type: 'hive',
     description: 'The table containing orders by products in hive',
     owner: 'Bumble Bee',
     dateInserted: 'January 6, 2018',
