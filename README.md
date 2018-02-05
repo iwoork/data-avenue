@@ -31,7 +31,14 @@ tools such as [Webpack](http://webpack.github.io/), [Babel](http://babeljs.io/)
 and [Browsersync](http://www.browsersync.io/). 
 
 ### Data
-Neo4J
+
+Each of the data resources are stored as **nodes** in a Neo4J database. 
+
+Currently, the following are supported:
+- Hive Table
+- Report (e.g Omniture report)
+- Dashboard (e.g Superset, PowerBI, Tableau)
+- Experimentation (e.g Optimizely, Apptimize, etc)
 
 ## Inspiration
 https://medium.com/airbnb-engineering/democratizing-data-at-airbnb-852d76c51770
